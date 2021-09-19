@@ -5,7 +5,7 @@ public class Student extends Person{
 	public String deptName;
 	public String currentSemester;
 	
-	Student(String name,String address, int age, String deptName, String currentSemester)
+	public Student(String name,String address, int age, String deptName, String currentSemester)
 	{
 		super(name,address,age); // parent class constructor called
 		this.deptName = deptName;
