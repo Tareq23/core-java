@@ -85,6 +85,17 @@ public class ArrayListTry {
 		System.out.println("sorted List : "+intList);
 		
 		
+//		ArrayList<Integer> anotherList = new ArrayList<Integer>(intList);
+		ArrayList<Integer> anotherList = new ArrayList<Integer>(intList.subList(0, 5));
+		
+		System.out.println("IntList size : "+intList.size());
+		System.out.println("AnotherList size : "+anotherList.size());
+		
+		for(int i=0 ; i<anotherList.size(); i++)
+		{
+			System.out.printf("%d ",anotherList.get(i));
+		}
+		
 				
 	}
 
